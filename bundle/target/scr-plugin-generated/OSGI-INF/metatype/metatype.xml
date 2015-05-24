@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="com.nikhil.packageone.AuthUserFilter" name="BARX.com Authentication Filter" description="Connect to extranet AD to retrieve user name"/>
+    <OCD id="com.nikhil.packageone.MySlingServlet" name="%com.nikhil.packageone.MySlingServlet.name" description="%com.nikhil.packageone.MySlingServlet.description">
+        <AD id="sling.servlet.paths" type="String" default="/bin/myservlet/" name="%sling.servlet.paths.name" description="%sling.servlet.paths.description"/>
+        <AD id="sling.servlet.methods" type="String" default="GET" name="%sling.servlet.methods.name" description="%sling.servlet.methods.description"/>
+    </OCD>
+    <Designate pid="com.nikhil.packageone.AuthUserFilter">
+        <Object ocdref="com.nikhil.packageone.AuthUserFilter"/>
+    </Designate>
+    <Designate pid="com.nikhil.packageone.MySlingServlet">
+        <Object ocdref="com.nikhil.packageone.MySlingServlet"/>
+    </Designate>
+</metatype:MetaData>

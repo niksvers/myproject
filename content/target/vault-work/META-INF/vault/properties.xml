@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>My Project Package</comment>
+<entry key="createdBy">nikverma</entry>
+<entry key="name">myproject-content</entry>
+<entry key="created">2015-05-24T07:29:15.910+0530</entry>
+<entry key="groupId">mygroupid</entry>
+<entry key="version">1.0</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">Nikhil</entry>
+<entry key="description">Maven Multimodule project for My Project.</entry>
+<entry key="artifactId">myproject-content</entry>
+<entry key="path">/etc/packages/Nikhil/myproject-content.zip</entry>
+</properties>
