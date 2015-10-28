@@ -171,6 +171,7 @@
 <dependency>
 	<groupId>com.day.cq</groupId>
 	<artifactId>cq-search</artifactId>
+	<version>5.6.4</version>
 </dependency>
 
 
