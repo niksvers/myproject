@@ -20,20 +20,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 //@Service(value=javax.servlet.Filter.class)
-@Component(immediate=true,metatype=true,label="BARX.com Authentication Filter",description="Connect to extranet AD to retrieve user name")
-/* @Properties({
-    @Property(name="service.pid", value="com.barxpublic.wcm.filters.AuthUserFilter",propertyPrivate=false),
-    @Property(name="service.description",value="BARX.com Authentication Filter description", propertyPrivate=false),
-    @Property(name="service.vendor",value="Barclays", propertyPrivate=false),
-    @Property(name="pattern",value="/services/barxpublic/user", propertyPrivate=false),
-    //@Property(name ="service.ranking", intValue = 99999),
-    //@Property(name ="sling.filter.scope", value="request"),
-    @Property(name ="EXTRANET_VSJ_FILE", value = "/apps/barclays/cq5.5/author/crx-quickstart/vsj/vsj-dev-ext.properties"),
-    @Property(name ="EXTRANET_AD_REALM", value = "ADEXTUAT.BARCAPEXTUAT.COM"),
-    @Property(name ="BAS_URL", value = "https://nykpsr1949:8443/AuthSvc")
-    
-    
-}) */
+@Component(immediate=true,metatype=true,label="Authentication Filter",description="Connect to extranet AD to retrieve user name")
+
 @SlingFilter(generateComponent = false, generateService = true,scope = SlingFilterScope.REQUEST, order = 100001)
 public class AuthUserFilter implements Filter{
 	private final static Logger logger = LoggerFactory.getLogger(AuthUserFilter.class);
